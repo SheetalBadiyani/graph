@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>::::  SIENNA SYSTEMS PVT. LTD.  ::::</title>
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link href=" https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+     
+
+</head>
+
+<body>
+<!--- topbar start  -->
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+
+        <div class="col-xs-11"> <a class="navbar-brand" href="#">Sienna Systems Pvt. Ltd.</a></div>
+        <div class="col-xs-1">
+                <div class="dropdown pull-right userClass">
+                        <button type="button btn-sm" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i>
+                        </button>
+                        <div class="dropdown-menu ">
+                          <a class="dropdown-item" href="#">Link 1</a>
+                          <a class="dropdown-item" href="#">Link 2</a>
+                          <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                      </div>
+        </div>
+  
+</div>
+ </nav>
+
+
+    
+
+    
+<!--- end topbar  --->
+
+
+<!--<div class="page-wrapper chiller-theme toggled">-->
+    <div class="page-wrapper chiller-theme">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">Sienna Systems Pvt. Ltd.</a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+
+
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span>Heading 1</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-tachometer-alt"></i>
+                                <span>Offers Pending for Approval</span>
+
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Dashboard 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dashboard 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dashboard 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Approved Offers</span>
+                                <!--<span class="badge badge-pill badge-danger">3</span>-->
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Credit cart</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="far fa-gem"></i>
+                                <span>Rejected Offers</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Panels</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tables</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Forms</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="header-menu">
+                            <span>Heading 2</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-book"></i>
+                                <span>Lorem ipsum dolor sit amet</span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar"></i>
+                                <span>consectetur adipisicing elit.</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-folder"></i>
+                                <span>Illo ipsam, totam minus</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fa fa-bell"></i>
+                    <span class="badge badge-pill badge-warning notification">3</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span class="badge badge-pill badge-success notification">7</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="badge-sonar"></span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid">
+              <div class="row dataPanel">
+               
+                    <form>
+                            <div class="form-check-inline"> 
+                            
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+                            <label class="custom-control-label" for="customRadio1">Last 7 Days</label>
+                          </div> 
+                          
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio2" name="example1">
+                            <label class="custom-control-label" for="customRadio2">Today</label>
+                          </div> 
+                          
+                           <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="customRadio3" name="example1">
+                            <label class="custom-control-label" for="customRadio3">Yesterday</label>
+                          </div> 
+                         
+                          </div> 
+                        
+                        </form>
+                
+                   
+            </div>
+    
+
+
+
+           <!--  counting start  -->
+
+           <div class="row text-center counter-panel">
+               
+                <div class="col">
+                <div class="counter">
+                        <i class="fa fa-bug fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="2718" data-speed="1500"></h2>
+           <p class="count-text ">Total Transaction</p>
+        </div>
+                </div>
+                  <div class="col">
+                   <div class="counter">
+                        <i class="fa fa-bug fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="2118" data-speed="1500"></h2>
+          <p class="count-text ">Student Transacted</p>
+        </div>
+                  </div>
+                  <div class="col">
+                      <div class="counter">
+                            <i class="fa fa-bug fa-2x"></i>
+                           
+          <h2 class="timer count-title count-number" data-to="56214" data-speed="1500"></h2>
+          <p class="count-text ">Transaction Amount</p>
+        </div></div>
+                  <div class="col">
+                  <div class="counter">
+          <i class="fa fa-bug fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="123" data-speed="1500"></h2>
+          <p class="count-text ">Card Loded</p>
+        </div>
+                  </div>
+                  <div class="col">
+                        <div class="counter">
+                <i class="fa fa-bug fa-2x"></i>
+                <h2 class="timer count-title count-number" data-to="6718" data-speed="1500"></h2>
+                <p class="count-text ">Amount Loaded In Cards </p>
+              </div>
+                        </div>
+             </div>
+
+           <!--  counting end -->
+
+                </div>
+            </div>
+        
+    </div>
+
+    </main>
+    <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+
+    
+        </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--- no.counting code-->
+
+<script>
+(function ($) {
+	$.fn.countTo = function (options) {
+		options = options || {};
+		
+		return $(this).each(function () {
+			// set options for current element
+			var settings = $.extend({}, $.fn.countTo.defaults, {
+				from:            $(this).data('from'),
+				to:              $(this).data('to'),
+				speed:           $(this).data('speed'),
+				refreshInterval: $(this).data('refresh-interval'),
+				decimals:        $(this).data('decimals')
+			}, options);
+			
+			// how many times to update the value, and how much to increment the value on each update
+			var loops = Math.ceil(settings.speed / settings.refreshInterval),
+				increment = (settings.to - settings.from) / loops;
+			
+			// references & variables that will change with each update
+			var self = this,
+				$self = $(this),
+				loopCount = 0,
+				value = settings.from,
+				data = $self.data('countTo') || {};
+			
+			$self.data('countTo', data);
+			
+			// if an existing interval can be found, clear it first
+			if (data.interval) {
+				clearInterval(data.interval);
+			}
+			data.interval = setInterval(updateTimer, settings.refreshInterval);
+			
+			// initialize the element with the starting value
+			render(value);
+			
+			function updateTimer() {
+				value += increment;
+				loopCount++;
+				
+				render(value);
+				
+				if (typeof(settings.onUpdate) == 'function') {
+					settings.onUpdate.call(self, value);
+				}
+				
+				if (loopCount >= loops) {
+					// remove the interval
+					$self.removeData('countTo');
+					clearInterval(data.interval);
+					value = settings.to;
+					
+					if (typeof(settings.onComplete) == 'function') {
+						settings.onComplete.call(self, value);
+					}
+				}
+			}
+			
+			function render(value) {
+				var formattedValue = settings.formatter.call(self, value, settings);
+				$self.html(formattedValue);
+			}
+		});
+	};
+	
+	$.fn.countTo.defaults = {
+		from: 0,               // the number the element should start at
+		to: 0,                 // the number the element should end at
+		speed: 1000,           // how long it should take to count between the target numbers
+		refreshInterval: 100,  // how often the element should be updated
+		decimals: 0,           // the number of decimal places to show
+		formatter: formatter,  // handler for formatting the value before rendering
+		onUpdate: null,        // callback method for every time the element is updated
+		onComplete: null       // callback method for when the element finishes updating
+	};
+	
+	function formatter(value, settings) {
+		return value.toFixed(settings.decimals);
+	}
+}(jQuery));
+
+jQuery(function ($) {
+  // custom formatting example
+  $('.count-number').data('countToOptions', {
+	formatter: function (value, options) {
+	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+	}
+  });
+  
+  // start all the timers
+  $('.timer').each(count);  
+  
+  function count(options) {
+	var $this = $(this);
+	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+	$this.countTo(options);
+  }
+});
+</script>
+  <!--- no.counting code  end-->
+
+
+
+
+    
+
+    <!-- choose file-->
+    <script>
+            // Add the following code if you want the name of the file appear on select
+            $(".custom-file-input").on("change", function() {
+              var fileName = $(this).val().split("\\").pop();
+              $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+            });
+            </script>
+    <!--choose file end -->
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <script>
+            $('#datepicker3').datepicker({
+                uiLibrary: 'bootstrap4'
+            });
+        </script>
+    <script>
+        jQuery(function ($) {
+
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+
+            $("#close-sidebar").click(function () {
+                $(".page-wrapper").removeClass("toggled");
+            });
+            $("#show-sidebar").click(function () {
+                $(".page-wrapper").addClass("toggled");
+            });
+});
+    </script>
+
+
+    <script src="./js/popper.min.js"></script>
+   
+    
+    
+  
+
+</body>
+
+</html>
